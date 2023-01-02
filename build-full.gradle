@@ -1,17 +1,3 @@
-apply plugin: 'java'
-apply plugin: 'protobuf'
-
-sourceSets.main {
-    java.srcDirs = [
-        'libphonenumber/src',
-        'internal/prefixmapper/src',
-        'geocoder/src'
-    ]
-    resources.srcDirs =[
-        'libphonenumber/src'
-    ]
-}
-
-dependencies {
-    compile project(path: ':libprotobuf', configuration: 'nano')
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:0e6b1f09cd8bc4aa5a94e1ba176b8dc645054a6d2f88e66e41816d6ff8e32cf5
+size 327

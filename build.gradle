@@ -1,22 +1,3 @@
-apply plugin: 'java'
-
-sourceSets {
-    main {
-        java {
-            srcDirs = ['libphonenumber/src']
-            include 'com/google/i18n/phonenumbers/AlternateFormatsCountryCodeSet.java',
-                    'com/google/i18n/phonenumbers/AsYouTypeFormatter.java',
-                    'com/google/i18n/phonenumbers/CountryCodeToRegionCodeMap.java',
-                    'com/google/i18n/phonenumbers/MetadataLoader.java',
-                    'com/google/i18n/phonenumbers/MetadataManager.java',
-                    'com/google/i18n/phonenumbers/NumberParseException.java',
-                    'com/google/i18n/phonenumbers/Phonemetadata.java',
-                    'com/google/i18n/phonenumbers/Phonenumber.java',
-                    'com/google/i18n/phonenumbers/PhoneNumberMatch.java',
-                    'com/google/i18n/phonenumbers/PhoneNumberMatcher.java',
-                    'com/google/i18n/phonenumbers/PhoneNumberUtil.java',
-                    'com/google/i18n/phonenumbers/RegexCache.java',
-                    'com/google/i18n/phonenumbers/ShortNumbersRegionCodeSet.java'
-        }
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:97946f4044ed5476726075638e9a68ce716b7c15a69a5e86c49b2383715b62e4
+size 1108
